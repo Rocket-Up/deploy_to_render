@@ -15,7 +15,7 @@ defmodule DeployToRender.Release do
 	end
 
 	defp repos do
-	  Application.fetch_env!(@app, :ecto_repos)
+	  Application.fetch_env!(@app, :ecto_repos)
 	end
 
 	defp load_app do
